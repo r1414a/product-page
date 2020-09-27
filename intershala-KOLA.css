@@ -1,0 +1,321 @@
+body{	
+				max-width: 1920px;
+				margin: 0 auto;
+				font-family: Georgia,Times,Serif;
+				font-size:16px;}
+			.logo{
+				float:left;
+				margin-right:120px;}
+			#down{
+				width:20px;
+				height:20px;}
+			.header{
+					padding-top:40px;
+					width:1200px;
+					margin:0px auto;}
+			.navigation{
+					width:1200px;
+					margin:0px auto;}
+			img{
+				cursor:pointer;}
+			.navg{
+				float:left;}			
+			.nav{
+				cursor:pointer;
+				margin-right:40px;
+				display:inline;}
+			.nav:hover{
+					color:rgb(165,232,22);}
+			.symbollinks{
+					float:left;
+					width:200px;
+					margin-right:10px;
+					text-align:center;
+					padding-top:20px;
+					height:50px;}
+			li{
+				list-style-type:none;}
+			#home{
+				position:relative;
+				display:inline-block;}
+			#hlinks{
+					border-radius:10px;
+					padding-left:0px;
+					line-height:2em;
+					display:none;
+					position:absolute;}
+			#home:hover #hlinks{
+						background-color:white;
+						width:200px;
+						cursor:pointer;
+						display:block;}
+			a{
+				color:rgb(128,128,128);
+				text-decoration:none;}
+			a:hover{
+					color:rgb(165,232,22);}
+		
+			#hl{	
+				padding-left:20px;
+				text-align:left;
+				border-top:1px solid rgb(226,226,226);}
+			#shop{
+				position:relative;
+				display:inline-block;}
+
+			.SHOP{
+				border-radius:10px;
+				display:none;
+				position:absolute;}
+			#shop:hover .SHOP{
+						background-color:white;
+						width:870px;
+						margin-left:-300px;
+						cursor:pointer;
+						display:block;}
+			#slinks{
+				padding-left:0px;
+				margin-right:20px;
+				float:left;}
+			#sl1{
+				padding-left:20px;
+				font-size:18px;
+				color:black;
+				font-weight:bold;}
+			#sl{	
+				padding-left:20px;
+				text-align:left;
+				border-top:1px solid rgb(226,226,226);}
+			
+			#blog{
+				position:relative;
+				display:inline-block;}
+
+			.BLOG{
+				border-radius:10px;
+				display:none;
+				position:absolute;}
+			#blog:hover .BLOG{
+						background-color:white;
+						width:850px;
+						margin-left:-300px;
+						cursor:pointer;
+						display:block;}
+			#blinks{
+				padding-left:0px;
+				margin-right:20px;
+				float:left;}
+			#bl1{
+				padding-left:20px;
+				font-size:18px;
+				color:black;
+				font-weight:bold;}
+			#bl{	
+				padding-left:20px;
+				text-align:left;
+				border-top:1px solid rgb(226,226,226);}
+			#bbl{
+				margin-top:30px;}
+			
+			#page{
+				position:relative;
+				display:inline-block;}
+			#plinks{
+					border-radius:10px;
+					padding-left:0px;
+					line-height:2em;
+					display:none;
+					position:absolute;}
+			#page:hover #plinks{
+						background-color:white;
+						width:200px;
+						cursor:pointer;
+						display:block;}
+			#pl{	
+				padding-left:20px;
+				text-align:left;
+				border-top:1px solid rgb(226,226,226);}
+			.se{ 
+				margin-left:30px;
+				margin-right:20px;
+				float:left;
+				width:25px;
+				height:25px;}
+			.ad{
+				margin-right:20px;
+				float:left;
+				width:25px;
+				height:25px;}
+			.ba{
+				float:left;
+				width:25px;
+				height:25px;}
+			#sup{
+				float:left;
+				width:30px;
+				height:30px;
+				font-size:18px;
+				text-align:center;
+				border-radius:30px;
+				background-color:rgb(165,232,22);
+				color:white;
+				border:1px solid darkcyan;}
+			#firstimage{
+					height:280px;
+					margin-top:150px;
+					background-size:cover;
+					background-image: url(firstimage.jpg);
+					background-repeat:no-repeat;
+					background-position:centre centre;}
+			.travel1{
+					font-size:20px;
+					color:white;
+					position:relative;
+					top:50px;
+					left:200px;}
+			.travel2{
+					font-size:34px;
+					font-weight:bold;
+					color:white;
+					position:relative;
+					top:100px;
+					left:1200px;}
+			#al{
+				color:white};
+
+			.cl2{
+				float:right;}	
+					
+			.fbg{
+				margin-top:25px;}
+			.sbg{
+				padding-left:80px;
+				margin-top:100px;}
+			#content{
+					width:1200px;
+					margin:0px auto;
+					margin-top:90px;}
+			.title{
+				text-align:left;
+				font-size:24px;}
+			.title:hover{
+					cursor:pointer;
+					color:rgb(165,232,22);}
+			.date{
+				text-align:left;
+				color:rgb(165,232,22);}
+			.pa{
+				text-align:left;
+				color:rgb(128,128,128);}	
+			.rm{
+				text-align:left;
+				margin:0px auto;}
+			.RM{
+				width:140px;
+				font-size:14px;
+				height:35px;
+				color:white;
+				font-weight:bold;
+				margin-top:10px;
+				border-radius:20px;
+				background-color:rgb(165,232,22);
+				border:1px solid rgb(165,232,22);}	
+			.RM:hover{
+					color:rgb(165,232,22);
+					background-color:white;}
+			.tbg{
+				margin-top:20px;}
+			#newsletter{
+					text-align:center;
+					border:1px solid rgb(258,258,258);
+					background-color:rgb(248,248,248);}
+			
+			.bgtop3{
+					margin-top:90px;}
+			.nl{
+				margin-bottom:50px;}
+			.pe{
+				color:rgb(128,128,128);}
+			#mail{
+					border:5px solid white;
+					border-radius:20px;
+					margin-left:150px;
+					padding-left:20px;
+					font-size:20px;
+					height:40px;
+					width:800px;
+					background-color:white;
+					margin-top:20px;}
+			#sigup{
+				cursor:pointer;
+				border-top-right-radius:20px;
+				border-bottom-right-radius:20px;
+					color:white;
+					font-weight:bold;
+					height:50px;
+					width:145px;
+					background-color:rgb(248,248,248);
+					position:relative;
+					right:150px;}
+			input#sigup{
+					background-color:rgb(165,232,22);}
+			#sigup:hover{
+					background-color:rgb(0,166,0);}	
+			#img{
+				margin-top:40px;
+				padding-bottom:40px;
+				padding-top:40px;
+				border:1px solid rgb(248,248,248);}
+			#imgs{
+				height:80px;
+				margin-right:30px;}
+			#about1{
+					width:1200px;
+					margin:0px auto;}
+			#about{
+				float:left;
+				padding-top:20px;
+				width:400px;}
+			#ab{
+				text-align:left;
+				font-size:18px;
+				color:rgb(128,128,128);} 
+			#aboutr{
+					float:left;
+					width:800px;
+					text-align:left;
+					font-size:20px;}
+			.col1{
+				color:rgb(128,128,128);
+				float:left;
+				margin-right:40px;}
+			#first{
+				color:black;
+				font-weight:bold;
+				margin-bottom:20px;}
+			li{
+				line-height:2em;}
+			.contact{
+					border-radius:10px;}
+			img.contact:hover{
+					background-color:rgb(165,232,22);}
+			#add{
+				line-height:1.5em;}
+			.pay{
+				position:relative;
+				top:140px;
+				left:1100px;}
+			.sh{
+				color:rgb(165,232,22);}
+			#foo{
+				position:relative;
+				top:110px;
+				left:400px;}
+			#footer{
+					margin-bottom:0px;
+					margin-top:400px;
+					height:280px;
+					background-size:cover;
+					background-image: url(bg-footer.png);
+					background-repeat:no-repeat;
+					background-position:centre centre;}

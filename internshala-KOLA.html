@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Travel  &ndash; Kola - Organic &amp; Food Shopify themes</title>
+		<style type="text/css">
+			body{	
+				max-width: 1920px;
+				margin: 0 auto;
+				font-family: Georgia,Times,Serif;
+				font-size:16px;}
+			.logo{
+				float:left;
+				margin-right:120px;}
+			#down{
+				width:20px;
+				height:20px;}
+			.header{
+					padding-top:40px;
+					width:1200px;
+					margin:0px auto;}
+			.navigation{
+					width:1200px;
+					margin:0px auto;}
+			img{
+				cursor:pointer;}
+			.navg{
+				float:left;}			
+			.nav{
+				cursor:pointer;
+				margin-right:40px;
+				display:inline;}
+			.nav:hover{
+					color:rgb(165,232,22);}
+			.symbollinks{
+					float:left;
+					width:200px;
+					margin-right:10px;
+					text-align:center;
+					padding-top:20px;
+					height:50px;}
+			li{
+				list-style-type:none;}
+			#home{
+				position:relative;
+				display:inline-block;}
+			#hlinks{
+					border-radius:10px;
+					padding-left:0px;
+					line-height:2em;
+					display:none;
+					position:absolute;}
+			#home:hover #hlinks{
+						background-color:white;
+						width:200px;
+						cursor:pointer;
+						display:block;}
+			a{
+				color:rgb(128,128,128);
+				text-decoration:none;}
+			a:hover{
+					color:rgb(165,232,22);}
+		
+			#hl{	
+				padding-left:20px;
+				text-align:left;
+				border-top:1px solid rgb(226,226,226);}
+			#shop{
+				position:relative;
+				display:inline-block;}
+
+			.SHOP{
+				border-radius:10px;
+				display:none;
+				position:absolute;}
+			#shop:hover .SHOP{
+						background-color:white;
+						width:870px;
+						margin-left:-300px;
+						cursor:pointer;
+						display:block;}
+			#slinks{
+				padding-left:0px;
+				margin-right:20px;
+				float:left;}
+			#sl1{
+				padding-left:20px;
+				font-size:18px;
+				color:black;
+				font-weight:bold;}
+			#sl{	
+				padding-left:20px;
+				text-align:left;
+				border-top:1px solid rgb(226,226,226);}
+			
+			#blog{
+				position:relative;
+				display:inline-block;}
+
+			.BLOG{
+				border-radius:10px;
+				display:none;
+				position:absolute;}
+			#blog:hover .BLOG{
+						background-color:white;
+						width:850px;
+						margin-left:-300px;
+						cursor:pointer;
+						display:block;}
+			#blinks{
+				padding-left:0px;
+				margin-right:20px;
+				float:left;}
+			#bl1{
+				padding-left:20px;
+				font-size:18px;
+				color:black;
+				font-weight:bold;}
+			#bl{	
+				padding-left:20px;
+				text-align:left;
+				border-top:1px solid rgb(226,226,226);}
+			#bbl{
+				margin-top:30px;}
+			
+			#page{
+				position:relative;
+				display:inline-block;}
+			#plinks{
+					border-radius:10px;
+					padding-left:0px;
+					line-height:2em;
+					display:none;
+					position:absolute;}
+			#page:hover #plinks{
+						background-color:white;
+						width:200px;
+						cursor:pointer;
+						display:block;}
+			#pl{	
+				padding-left:20px;
+				text-align:left;
+				border-top:1px solid rgb(226,226,226);}
+			.se{ 
+				margin-left:30px;
+				margin-right:20px;
+				float:left;
+				width:25px;
+				height:25px;}
+			.ad{
+				margin-right:20px;
+				float:left;
+				width:25px;
+				height:25px;}
+			.ba{
+				float:left;
+				width:25px;
+				height:25px;}
+			#sup{
+				float:left;
+				width:30px;
+				height:30px;
+				font-size:18px;
+				text-align:center;
+				border-radius:30px;
+				background-color:rgb(165,232,22);
+				color:white;
+				border:1px solid darkcyan;}
+			#firstimage{
+					height:280px;
+					margin-top:150px;
+					background-size:cover;
+					background-image: url(firstimage.jpg);
+					background-repeat:no-repeat;
+					background-position:centre centre;}
+			.travel1{
+					font-size:20px;
+					color:white;
+					position:relative;
+					top:50px;
+					left:200px;}
+			.travel2{
+					font-size:34px;
+					font-weight:bold;
+					color:white;
+					position:relative;
+					top:100px;
+					left:1200px;}
+			#al{
+				color:white};
+
+			.cl2{
+				float:right;}	
+					
+			.fbg{
+				margin-top:25px;}
+			.sbg{
+				padding-left:80px;
+				margin-top:100px;}
+			#content{
+					width:1200px;
+					margin:0px auto;
+					margin-top:90px;}
+			.title{
+				text-align:left;
+				font-size:24px;}
+			.title:hover{
+					cursor:pointer;
+					color:rgb(165,232,22);}
+			.date{
+				text-align:left;
+				color:rgb(165,232,22);}
+			.pa{
+				text-align:left;
+				color:rgb(128,128,128);}	
+			.rm{
+				text-align:left;
+				margin:0px auto;}
+			.RM{
+				width:140px;
+				font-size:14px;
+				height:35px;
+				color:white;
+				font-weight:bold;
+				margin-top:10px;
+				border-radius:20px;
+				background-color:rgb(165,232,22);
+				border:1px solid rgb(165,232,22);}	
+			.RM:hover{
+					color:rgb(165,232,22);
+					background-color:white;}
+			.tbg{
+				margin-top:20px;}
+			#newsletter{
+					text-align:center;
+					border:1px solid rgb(258,258,258);
+					background-color:rgb(248,248,248);}
+			
+			.bgtop3{
+					margin-top:90px;}
+			.nl{
+				margin-bottom:50px;}
+			.pe{
+				color:rgb(128,128,128);}
+			#mail{
+					border:5px solid white;
+					border-radius:20px;
+					margin-left:150px;
+					padding-left:20px;
+					font-size:20px;
+					height:40px;
+					width:800px;
+					background-color:white;
+					margin-top:20px;}
+			#sigup{
+				cursor:pointer;
+				border-top-right-radius:20px;
+				border-bottom-right-radius:20px;
+					color:white;
+					font-weight:bold;
+					height:50px;
+					width:145px;
+					background-color:rgb(248,248,248);
+					position:relative;
+					right:150px;}
+			input#sigup{
+					background-color:rgb(165,232,22);}
+			#sigup:hover{
+					background-color:rgb(0,166,0);}	
+			#img{
+				margin-top:40px;
+				padding-bottom:40px;
+				padding-top:40px;
+				border:1px solid rgb(248,248,248);}
+			#imgs{
+				height:80px;
+				margin-right:30px;}
+			#about1{
+					width:1200px;
+					margin:0px auto;}
+			#about{
+				float:left;
+				padding-top:20px;
+				width:400px;}
+			#ab{
+				text-align:left;
+				font-size:18px;
+				color:rgb(128,128,128);} 
+			#aboutr{
+					float:left;
+					width:800px;
+					text-align:left;
+					font-size:20px;}
+			.col1{
+				color:rgb(128,128,128);
+				float:left;
+				margin-right:40px;}
+			#first{
+				color:black;
+				font-weight:bold;
+				margin-bottom:20px;}
+			li{
+				line-height:2em;}
+			.contact{
+					border-radius:10px;}
+			img.contact:hover{
+					background-color:rgb(165,232,22);}
+			#add{
+				line-height:1.5em;}
+			.pay{
+				position:relative;
+				top:140px;
+				left:1100px;}
+			.sh{
+				color:rgb(165,232,22);}
+			#foo{
+				position:relative;
+				top:110px;
+				left:400px;}
+			#footer{
+					margin-bottom:0px;
+					margin-top:400px;
+					height:280px;
+					background-size:cover;
+					background-image: url(bg-footer.png);
+					background-repeat:no-repeat;
+					background-position:centre centre;}
+		</style>
+	</head>
+		<body>
+			<div class="header">
+				<img class="logo" src="kola.png" alt="company logo"/>
+			<div class="navigation">
+				<ul class="navg">
+					<li id="home" class="nav"><b>HOME</b><img id="down" src="index.png" alt="drop down list">
+						<ul id="hlinks">
+							<li id="hl"><a href="#">Home 1</a></li>
+							<li id="hl"><a href="#">Home 2</a></li>
+							<li id="hl"><a href="#">Home 3</a></li>
+							<li id="hl"><a href="#">Home 4</a></li>
+							<li id="hl"><a href="#">Home 5</a></li>
+							<li id="hl"><a href="#">Home 6</a></li>
+							<li id="hl"><a href="#">Home 7</a></li>
+							<li id="hl"><a href="#">Home 8</a></li>
+						</ul>
+					</li>
+					<li id="shop" class="nav"><b>SHOP</b><img id="down" src="index.png" alt="drop down list">
+					<div class="SHOP">
+						
+						<ul  id="slinks">
+						
+							<li id="sl1"><a href="#">Shop View</a></li>
+							<li id="sl"><a href="#">Left Sidebar</a></li>
+							<li id="sl"><a href="#">Right Sidebar</a></li>
+							<li id="sl"><a href="#">Without Sidebar</a></li>
+							<li id="sl"><a href="#">Collection List</a></li>
+							<li id="sl"><a href="#">Collection Grid</a></li>
+							<li id="sl"><img src="fifthbg.jpg" width="250" height="200"></li>
+						</ul>
+					
+						<ul  id="slinks">	
+							<li id="sl1"><a href="#">Product View</a></li>
+							<li id="sl"><a href="#">Left Thumbnail</a></li>
+							<li id="sl"><a href="#">Right Thumbnail</a></li>
+							<li id="sl"><a href="#">Bottom Thumbnail</a></li>
+							<li id="sl"><a href="#">Outside Thumbnail</a></li>
+							<li id="sl"><a href="#">Sticky Content</a></li>
+							<li id="sl"><img src="new1.jpg" width="250" height="200"></li>
+						</ul>
+						
+						<ul id="slinks">
+							<li id="sl1"><a href="#">Collection</a></li>
+							<li id="sl"><a href="#">Juice</a></li>
+							<li id="sl"><a href="#">Beans</a></li>
+							<li id="sl"><a href="#">Vegetables</a></li>
+							<li id="sl"><a href="#">Bread</a></li>
+							<li id="sl"><a href="#"> Fruit</a></li>
+							<li id="sl"><img src="thirdbg.jpg" width="250" height="200"></li>
+						</ul>
+					</div>
+					</li>
+					<li id="blog" class="nav"><b>BLOG</b><img id="down" src="index.png" alt="drop down list">
+					<div class="BLOG">
+						<ul id="blinks">
+							<li id="bl1"><a href="#">Post View</a></li>
+							<li id="bl"><a href="#">Article Left Sidebar</a></li>
+							<li id="bl"><a href="#">Article Right Sidebar</a></li>
+							<li id="bl"><a href="#">Without Sidebar</a></li>
+							<li id="bl"><img src="seventhbg.jpg" width="250" height="200"></li>
+						</ul>
+						<ul id="blinks">
+							<li id="sl1"><a href="#">Blog View</a></li>
+							<li id="bl"><a href="#">Blog Left Sidebar</a></li>
+							<li id="bl"><a href="#">Blog Right Sidebar</a></li>
+							<li id="bl"><a href="#">Blog Without Sidebar</a></li>
+							<li id="bl"><img src="fifthbg.jpg" width="250" height="200"></li>
+						</ul>
+						<ul id="blinks">
+							<li id="sl1"><a href="#">Blog Style</a></li>
+							<li id="bl"><a href="#">Blog List</a></li>
+							<li id="bl"><a href="#">Blog Grid</a></li>
+							<li id="bbl"><img src="new2.jpg" width="250" height="200"></li>
+						</ul>
+					</div>
+					</li>
+					<li id="page" class="nav"><b>PAGE</b><img id="down" src="index.png" alt="drop down list">
+						<ul id="plinks">
+							<li id="pl"><a href="#">About</a></li>
+							<li id="pl"><a href="#">Contact</a></li>
+							<li id="pl"><a href="#">Wishlist</a></li>
+							<li id="pl"><a href="#">404 Error</a></li>
+						
+						</ul>
+					</li>
+					<li class="nav"><b>COLLECTIONS</b></li>
+				</ul>
+		
+		<div class="symbollinks">
+			<img class="se" src="search.png" title="Search...."/>
+			<img class="ad" src="admin.png" />
+			<img class="ba" src="basket.png" /><sup><div id="sup">0</div></sup>
+		</div>
+	</div>
+</div>
+			<div id=firstimage>
+				<span class="travel1"><a id="al" href="#" title="Back To Front Page">Home </a> | Travel </span>
+				<span class="travel2">Travel</span>
+			</div>
+			
+		<div id="content">	
+			<img class="tbg" title="Reasons Why You Should" src="secondbg.jpg"/>
+			<p class="title" title="Reasons Why You Should"><b>Reasons Why You Should</b></p> 
+			<p class="date">Tung Hoang Aug 02,2019</p>
+			<p class="pa">Nunc aliquet, justo non commodo congue, velit sem pulvinar enim, ac bibendum mi mi eget libero. Maecenas ac viverra enim,...</p>
+			<p class="rm"><input class="RM" type="button" value="READ MORE"/></p>		
+		</div>
+		
+			
+		<div id="content">
+			<img class="tbg" title="Post Format Video Blogs" src="thirdbg.jpg"/>
+			<p class="title" title="Post Format Video Blogs"><b>Post Format Video Blogs</b></p> 
+			<p class="date">David Jame Aug 02,2019</p>
+			<p class="pa">Nunc aliquet, justo non commodo congue, velit sem pulvinar enim, ac bibendum mi mi eget libero. Maecenas ac viverra enim,...</p>
+			<p><input class="RM" type="button" value="READ MORE"/></p>		
+		</div>
+		
+		<div id="content">
+			<img class="tbg" title="Post Format Video Blogs" src="thirdbg.jpg"/>
+			<p class="title" title="Post Format Video Blogs"><b>Post Format Video Blogs</b></p> 
+			<p class="date">David Jame Aug 02,2019</p>
+			<p class="pa">Nunc aliquet, justo non commodo congue, velit sem pulvinar enim, ac bibendum mi mi eget libero. Maecenas ac viverra enim,...</p>
+			<p><input class="RM" type="button" value="READ MORE"/></p>		
+		</div>
+	
+			
+		<div id="content">
+			<img class="tbg" title="Post Format Quote Blogs" src="fifthbg.jpg"/>
+			<p class="title" title="Post Format Quote Blogs"><b>Post Format Quote Blogs</b></p> 
+			<p class="date">David Jame Aug 02,2019</p>
+			<p class="pa">Nunc aliquet, justo non commodo congue, velit sem pulvinar enim, ac bibendum mi mi eget libero. Maecenas ac viverra enim,...</p>
+			<p><input class="RM" type="button" value="READ MORE"/></p>	
+		</div>
+		
+	
+		<div id="content">
+			<img class="tbg" title="Hot Trending Clothing" src="sixthbg.jpg"/>
+			<p class="title" title="Hot Trending Clothing"><b>Hot Trending Clothing</b></p> 
+			<p class="date">Tung Hoang Aug 02,2019</p>
+			<p class="pa">Nunc aliquet, justo non commodo congue, velit sem pulvinar enim, ac bibendum mi mi eget libero. Maecenas ac viverra enim,...</p>
+			<p><input class="RM" type="button" value="READ MORE"/></p>		
+		</div>
+		
+		<div id="content">
+			<img class="tbg" title="Fashionable Autumn Brand" src="seventhbg.jpg"/>
+			<p class="title" title="Fashionable Autumn Brand"><b>Fashionable Autumn Brand</b></p> 
+			<p class="date">David Jame Aug 02,2019</p>
+			<p class="pa">Nunc aliquet, justo non commodo congue, velit sem pulvinar enim, ac bibendum mi mi eget libero. Maecenas ac viverra enim,...</p>
+			<p><input class="RM" type="button" value="READ MORE"/></p>		
+		</div>
+		
+
+		<div id="content">
+			<img class="tbg" title="How To Make Your First 10" src="eightbg.jpg"/>
+			<p class="title" title="How To Make Your First 10"><b>How To Make Your First 10</b></p> 
+			<p class="date">David Jame Aug 02,2019</p>
+			<p class="pa">Nunc aliquet, justo non commodo congue, velit sem pulvinar enim, ac bibendum mi mi eget libero. Maecenas ac viverra enim,...</p>
+			<p><input class="RM" type="button" value="READ MORE"/></p>		
+		</div>
+
+		<div id="content">
+			<img class="tbg" title="5 Ways To Improve Online" src="ninthbg.jpg"/>
+			<p class="title" title="5 Ways To Improve Online"><b>5 Ways To Improve Online</b></p> 
+			<p class="date">David Jame Aug 02,2019</p>
+			<p class="pa">Nunc aliquet, justo non commodo congue, velit sem pulvinar enim, ac bibendum mi mi eget libero. Maecenas ac viverra enim,...</p>
+			<p><input class="RM" type="button" value="READ MORE"/></p>		
+		</div>
+			
+			<img class="bgtop3" src="bg-top-3.png"/>
+		<div id="newsletter">
+			<h1>Newsletter</h1>
+			<img class="nl" src="images.png"/>
+			<p class="pe">Get E-mail updates about our latest shop and special offers.</p>
+	<form action="#" method="post">
+			<input id="mail" type="email" name="email" placeholder="Email address" title="Please fill out this field."/>
+			<input id="sigup" type="submit" value="SIGN ME UP!"/>
+	</form>
+			<div id="img">
+				<img id="imgs" src="fimg.png"/>
+				<img id="imgs" src="simg.png"/>
+				<img id="imgs" src="timg.png"/>
+				<img id="imgs" src="foimg.png"/>
+				<img id="imgs" src="fiimg.png"/>
+				<img id="imgs" src="sximg.png"/>
+			</div>
+			<img class="bgtop2" src="bg-top-2.png"/>
+		</div>
+		<div id="about1">
+			<div id="about">
+				<img class="logob" src="kola.png" alt="company logo"/>
+				<p id="ab">Aliquam porta tellus malesuada eleifend rutrum. 
+					Fusce a dapibus lacus, sit amet facilisis quam. 
+					Donec egestas blandit semper. Praesent id
+					 maximus ante, porttitor vehicula arcu. Integer
+					 rhoncus sapien sed congue ornare. Egestas blandit
+					 semper.</p> 
+				<img class="contact" src="facebook.jfif" width="35" height="30"/>
+				<img class="contact" src="gmail.png" width="35" height="30"/>
+				<img class="contact" src="twitter.png" width="30" height="30"/>
+				<img class="contact" src="instagram.jfif" width="35" height="35"/>
+			</div>
+			<div id="aboutr">
+				<ul class="col1">
+					<li id="first">INFORMATION</li>
+					<li><a href="#">New Products</a></li>
+					<li><a href="#">Our Blog</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Top Sellers</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+				<ul class="col1">
+					<li id="first">MY ACCOUNT</li>
+					<li><a href="#">My Account</a></li>
+					<li><a href="#">Checkout</a></li>
+					<li><a href="#">Validation</a></li>
+					<li><a href="#">Wishlist</a></li>
+					<li><a href="#">Cart</a></li>
+					<li><a href="#">Terms of Use</a></li>
+				</ul>
+				<ul class="col1">
+					<li id="first">CONTACT US</li>
+					<li id="add">No 40 Baria Sreet 133/2,<br /> New York, USA.</li>
+					<li>(+01) 06738383838</li>
+					<li>(+01) 06738383838</li>
+					<li id="add">support@domain.com<br />
+					demo@gmail.com</li>
+				</ul>
+			</div>
+		</div>
+			<div id="footer">
+				<img class="pay" src="payment1.png" alt="payment option"/>
+				<p id="foo">Copyright &copy; 2020 <span class="sh">Shopify</span>. All Rights Reserved</p>
+			</div>
+
+		</body>
+</html>
